@@ -6,28 +6,20 @@ Graphs are defined by their vertices and edges. Assessing the significance of ve
 
 This is an example computation for a simple graph,
 
-![BC example](https://github.com/genpranav/Brandes-Algorithm-Betweenness-Centrality/blob/main/Images/BC%20example.jpg)
+![BC example](./Images/BC%20example.jpg)
 
 Obviously when scaling graphs to practical situations will lead to computational strain. 
 
 The notion of this problem has been clearly established for quite some time and along with it come multiple possible approaches to computing it. **One of the more efficient algorithms that solve for Betweenness Centrality is the Brandes algorithm**.
 
-As an extension to the conventional implementation of Brandes algorithm for unweighted graphs, I've also implemented a creative way to compute Betweenness Centrality for weighted graphs by extending it with the use of Dijkstra's algorithm. On testing with the code with unweighted and equally weighted methods, they are equivalent.
 
 ## Documentation
 
 The documentation of this project can be found [here](https://iq.opengenus.org/p/dc5de000-9cce-48b5-9805-0a81c2fdb56a/)
 
-### Socials plug
+> The experiment to compute Betweenness Centrality for weighted graphs by extending it with the use of Dijkstra's algorithm only works for graphs with vertices/edges with unique shortest paths and does not generalize.
 
-<details open>
-<summary>B.E.Pranav Kumaar</summary>
-Student ID @Amrita Vishwa Vidyapeetham - CB.EN.U4AIE20052
+## References
 
-:fire: [twitter](https://twitter.com/bepranavkumaar1)
-
-:zap: [LinkedIn](https://www.linkedin.com/in/pranav-kumaar/)
-
-:snowflake: [Github](https://github.com/genpranav)
-
-</details>
+- Ulrik Brandes, **"A Faster Algorithm for Betweenness Centrality"**, *Journal of Mathematical Sociology*, 25(2):163–177, 2001. [[PDF]](https://www.uni-konstanz.de/algo/publications/b-fabc-01.pdf) [[DOI]](https://doi.org/10.1080/0022250X.2001.9990249)
+- Ulrik Brandes, **"On Variants of Shortest-Path Betweenness Centrality and their Generic Computation"**, *Social Networks*, 30(2):136–145, 2008. [[PDF]](https://www.uni-konstanz.de/algo/publications/b-vspbc-08.pdf) [[DOI]](https://doi.org/10.1016/j.socnet.2007.11.001)
